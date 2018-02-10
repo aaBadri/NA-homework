@@ -2,8 +2,8 @@
 #include <cmath>
 
 #define ESP 0.001
-#define func(x) ((1/x)*exp(-x/100) - 1);
-#define derivFunc(x) ((-101) / (100 * x)) * exp((-x) / 100);
+#define func(x) (3*x - exp(-x));
+#define derivFunc(x) (3+exp(-x))
 
 using namespace std;
 int iteration = 1;
